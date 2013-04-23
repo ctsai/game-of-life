@@ -158,7 +158,7 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <storyType>html</storyType>                         l
+                        <storyType>html</storyType>
                         <storyReport>${basedir}/target/easyb/easyb-report.html
                         </storyReport>
                     </configuration>
@@ -322,6 +322,7 @@
                                     <version>${cobertura.version}</version>
                                     <configuration>
                                         <formats>
+                                            <!--<format>html</format>-->
                                             <format>xml</format>
                                         </formats>
                                     </configuration>
